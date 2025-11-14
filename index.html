@@ -1,0 +1,160 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lumina Cosmetics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Lumina</a>
+      <nav class="main-nav">
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn icon">🛒</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Glow with Confidence</h1>
+        <p>Clean ingredients · Cruelty-free · Long-lasting formulas. Shop our curated collection of skincare and makeup essentials.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#products">Shop Now</a>
+          <a class="btn ghost" href="#about">Learn More</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1543554055-06c3f0f86a06?q=80&w=900&auto=format&fit=crop&ixlib=rb-4.0.3&s=1c6f6b7a4b6f2b5d96f7d1a3b2c9e5f8" alt="cosmetics bottles on marble">
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="products" class="section">
+      <h2 class="section-title">Featured Products</h2>
+      <div class="products-grid">
+
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1521510895910-3f8f9fe6f3d9?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&s=7c1c3b6c3b1b6a2c9d4e6a9d" alt="serum bottle">
+          <div class="card-body">
+            <h3>Radiant Vitamin C Serum</h3>
+            <p class="price">₹999</p>
+            <p class="desc">Brightening serum with stable vitamin C and hyaluronic acid for dewy skin.</p>
+            <div class="card-actions">
+              <button class="btn outline">View</button>
+              <button class="btn primary small">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1592878907129-9d199ecb2a07?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&s=2b9f6f6d2e4f5a7b9c8d3e1f" alt="lipstick">
+          <div class="card-body">
+            <h3>Velvet Matte Lipstick</h3>
+            <p class="price">₹799</p>
+            <p class="desc">Rich pigment with a comfortable matte finish — long wear without drying.</p>
+            <div class="card-actions">
+              <button class="btn outline">View</button>
+              <button class="btn primary small">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1592928306954-9c2b7f8d1c3a?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&s=6e3f4d5b8a1c2d3e4f5a6b7c" alt="face cream jar">
+          <div class="card-body">
+            <h3>Hydra Boost Cream</h3>
+            <p class="price">₹1,299</p>
+            <p class="desc">Lightweight moisturizer with ceramides for all-day hydration.</p>
+            <div class="card-actions">
+              <button class="btn outline">View</button>
+              <button class="btn primary small">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="card-img" src="https://images.unsplash.com/photo-1536305030018-9f7f3c7f0c45?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&s=abc123def456" alt="brush set">
+          <div class="card-body">
+            <h3>Pro Brush Set</h3>
+            <p class="price">₹1,499</p>
+            <p class="desc">Soft, cruelty-free brushes with tapered handles for precise application.</p>
+            <div class="card-actions">
+              <button class="btn outline">View</button>
+              <button class="btn primary small">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="about" class="section split">
+      <div>
+        <h2>About Lumina</h2>
+        <p>We believe beauty should be kind — to your skin and the planet. Lumina formulates with thoughtfully-sourced ingredients, transparent labeling and recyclable packaging.</p>
+      </div>
+      <div>
+        <h3>Our Promise</h3>
+        <ul class="features">
+          <li>Clean & effective formulations</li>
+          <li>Cruelty-free & vegan options</li>
+          <li>Sustainably packaged</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section newsletter">
+      <h2>Join Our Beauty Club</h2>
+      <p>Sign up for 10% off your first order and exclusive launches.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button class="btn primary" type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Contact Us</h2>
+      <p>Questions? Reach out at <a href="mailto:hello@lumina.example">hello@lumina.example</a> or follow us on social.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Lumina Cosmetics</strong>
+        <p>© <span id="year"></span> Lumina. All rights reserved.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Shipping</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // small script for footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // Simple newsletter submit handler
+    document.querySelector('.newsletter-form').addEventListener('submit', function(e){
+      e.preventDefault();
+      alert('Thanks! Check your email for the discount code.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
+
